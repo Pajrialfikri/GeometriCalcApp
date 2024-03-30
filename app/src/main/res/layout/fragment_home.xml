@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#919191"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:id="@+id/homeFrame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="550dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bangun_datar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/persegi_panjang"
+
+            android:id="@+id/persegi_panjangg"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/persegi"
+            android:onClick="imageViewClicked"
+            android:id="@+id/persegi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/belah_ketupat"
+            android:onClick="imageViewClicked"
+            android:id="@+id/belah_ketupat"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/layang_layang"
+            android:onClick="imageViewClicked"
+            android:id="@+id/layang_layang"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/segitiga"
+            android:onClick="imageViewClicked"
+            android:id="@+id/segitiga"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/jajar_genjang"
+            android:onClick="imageViewClicked"
+            android:id="@+id/jajar_genjang"/>
+
+    </LinearLayout>
+
+</LinearLayout>

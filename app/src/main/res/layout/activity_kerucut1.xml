@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersegiPanjang"
+    android:orientation="vertical"
+    android:background="@drawable/kerucut_ui"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextJariJari"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext"
+            android:backgroundTint="#CCC9C9"
+            android:hint="Jari-Jari"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editTextTinggi"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext"
+            android:backgroundTint="#CCC9C9"
+            android:hint="Lebar"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/buttonHitung"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#7F7F7F"
+            android:textColor="#525050"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="16dp"
+            android:text="Hitung" />
+
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hasil: " />
+    </LinearLayout>
+
+</LinearLayout>

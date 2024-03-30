@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logoapp"
+        android:label="GeometriCalc"
+        android:roundIcon="@mipmap/logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasNramadhan"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".prisma1"
+            android:exported="false" />
+        <activity
+            android:name=".bola1"
+            android:exported="false" />
+        <activity
+            android:name=".kerucut1"
+            android:exported="false" />
+        <activity
+            android:name=".silinder1"
+            android:exported="false" />
+        <activity
+            android:name=".balok1"
+            android:exported="false" />
+        <activity
+            android:name=".kubus1"
+            android:exported="false" />
+        <activity
+            android:name=".jajar_genjang"
+            android:exported="false" />
+        <activity
+            android:name=".segitiga1"
+            android:exported="false" />
+        <activity
+            android:name=".layang_layang1"
+            android:exported="false" />
+        <activity
+            android:name=".belah_ketupat1"
+            android:exported="false" />
+        <activity
+            android:name=".PersegiPanjang"
+            android:exported="false" />
+        <activity
+            android:name=".persegi1"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
